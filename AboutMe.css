@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(0,0,0);
+}
+
+.p1{
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.p2,
+.p3,
+.p4,
+.p5{
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.span1{
+
+  color: gray;
+}
+.span2{
+  color: red;
+}
+
+.span1:hover{
+  color: rgb(52, 34, 34);
+}
+.span2:hover{
+  color: rgb(52, 34, 34);
+}
+.span2:enabled{
+  color: black;
+}
+.span1:enabled{
+  color: black;
+}
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.topnav a.AboutMe{
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: unset;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+  /* Add a color to the active/current link */
+
+
